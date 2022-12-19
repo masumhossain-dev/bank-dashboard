@@ -11,5 +11,38 @@
    <header>
       <h1 class="text-center text-5xl font-bold mt-6 text-teal-400">YOUR DASHBOARD</span></h1>
    </header>
+   <main>
+      <section class="mt-12">
+      <div class="grid grid-cols-3 gap-4 w-6/12 mx-auto text-white">
+         <div class="bg-teal-400 p-8 rounded-xl">
+            <h4 class="text-2xl">Deposit</h4>
+            <h1 class="text-5xl">$00</h1>
+         </div>
+         <div class="bg-red-400 p-8 rounded-xl">
+            <h4 class="text-2xl">Withdraw</h4>
+            <h1 class="text-5xl">$00</h1>
+         </div>
+         <div class="bg-gray-400 p-8 rounded-xl">
+            <h4 class="text-2xl">Balance</h4>
+            <h1 class="text-5xl">$00</h1>
+         </div>
+      </div>
+   </section>
+
+   <section>
+      <div class="grid grid-cols-2 gap-4 w-6/12 mx-auto mt-12">
+         <div class="bg-purple-400 p-8 rounded-xl">
+            <h4 class="text-3xl font-bold text-gray-700">Please Deposit</h4>
+            <input class="rounded w-8/12 block mb-3 mx-auto px-2 py-1 mt-4 ml-16" type="number" name="" id="deposit-field" placeholder="$ Amount you want to Deposit">
+            <button id="deposit-btn" class="bg-gray-500 hover:bg-black px-3 py-1 rounded block ml-16 mt-5 text-white">Deposit</button>
+         </div>
+         <div class="bg-lime-400 p-8 rounded-xl">
+            <h4 class="text-3xl font-bold text-gray-700">Please Withdraw</h4>
+            <input class="rounded w-8/12 block mb-3 mx-auto px-2 py-1 mt-4 ml-16" type="number" name="" id="withdraw-field" placeholder="$ Amount you want to Withdraw">
+            <button id="withdraw-btn" class="bg-gray-500 hover:bg-black px-3 py-1 rounded block ml-16 mt-5 text-white">Withdraw</button>
+         </div>
+      </div>
+   </section>
+   </main>
 </body>
 </html>

@@ -9,6 +9,6 @@ document.getElementById('submit-btn').addEventListener('click', function(){
       location.href = 'dashboard.html'
    }
    else{
-      alert('Invalid User!')
+      alert('Invalid User!\nPlease Enter this Email & Password:\n-user@gmail.com\n-12345')
    }
 })
